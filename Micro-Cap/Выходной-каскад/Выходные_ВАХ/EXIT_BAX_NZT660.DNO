@@ -1,0 +1,1192 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                      DC Analysis of EXIT_BAX_NZT660                      ***
+********************************************************************************
+Limits
+======
+Variable 1 Method        Linear
+Variable 1 Name          V1
+Variable 1 Range         38,0,0.01
+Variable 2 Method        Linear
+Variable 2 Name          I1
+Variable 2 Range         0.45m, -10u, 0.034m
+Temperature              Linear 27
+Number of Points         51
+Maximum Change %         5
+Run Options              Normal
+Auto Scale Ranges        Off
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=-1e-005                   ***
+*****************************************************
+
+Temperature=27 I1=-1e-005
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=2.4e-005                  ***
+*****************************************************
+
+Temperature=27 I1=2.4e-005
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=5.8e-005                  ***
+*****************************************************
+
+Temperature=27 I1=5.8e-005
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=9.2e-005                  ***
+*****************************************************
+
+Temperature=27 I1=9.2e-005
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=0.000126                  ***
+*****************************************************
+
+Temperature=27 I1=0.000126
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=0.00016                   ***
+*****************************************************
+
+Temperature=27 I1=0.00016
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=0.000194                  ***
+*****************************************************
+
+Temperature=27 I1=0.000194
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=0.000228                  ***
+*****************************************************
+
+Temperature=27 I1=0.000228
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=0.000262                  ***
+*****************************************************
+
+Temperature=27 I1=0.000262
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=0.000296                  ***
+*****************************************************
+
+Temperature=27 I1=0.000296
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=0.00033                   ***
+*****************************************************
+
+Temperature=27 I1=0.00033
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=0.000364                  ***
+*****************************************************
+
+Temperature=27 I1=0.000364
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=0.000398                  ***
+*****************************************************
+
+Temperature=27 I1=0.000398
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=0.000432                  ***
+*****************************************************
+
+Temperature=27 I1=0.000432
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=0.00045                   ***
+*****************************************************
+
+Temperature=27 I1=0.00045
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:             VT1   
+Using model:       NZT660   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               392.200    
+BR               500.000m   
+CJC              119.254p   
+CJE              429.169p   
+CJS                0.000 (*)
+EG                 1.080    
+FC               500.000m   
+GAMMA             10.000p(*)
+IKF                4.802    
+IKR               10.965m   
+IRB                2.818u   
+IS                 1.085p   
+ISC              691.831f   
+ISE               13.183p   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              441.585m   
+MJE              413.945m   
+MJS                0.000 (*)
+NC                 1.500    
+NE                 2.000    
+NF                 1.000    
+NK               500.000m(*)
+NR                 1.000    
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                38.200    
+RBM                7.093    
+RC                80.000m   
+RCO                0.000 (*)
+RE                60.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF                 2.213n   
+TR                 0.000 (*)
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               39.000    
+VAR               10.310    
+VG                 1.206 (*)
+VJC              658.223m   
+VJE              783.073m   
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                2.500    
+XTF                0.000 (*)
+XTI                3.000    
+(*) Default Parameter
+
+
+

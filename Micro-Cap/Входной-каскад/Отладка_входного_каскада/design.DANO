@@ -1,0 +1,126 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                           Dynamic AC of design                           ***
+***                           12.12.2021 16:03:27                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+AC Voltages at Frequency=1e+006 (Mag, Degrees)
+==============================================
+Node                 Voltage  Node                 Voltage 
+1                          0  2         75.456m,-620.464m° 
+3          89.36m,-620.464m°  4        291.317m,-620.464m° 
+5          952.375m,179.962°  6            10.901u,89.966° 
+7          952.379m,179.951°  8              999.999m,180° 
+9         291.315m,-416.88m° 
+
+
+AC values for Jfet PJF (Mag, Degrees)
+=====================================
+Instance:                        VT1
+Using model:                  2N2608
+
+Power AC Terms:
+PD              807.339u,4.696E-019°
+PS                       6.252u,-90°
+
+AC Pin Currents:
+Ig                  12.033u,-90.162°
+Id                   1.767m,179.576°
+Is                   1.767m,-34.04m°
+
+Device Variables:
+area                          1.000 
+vds                           0.000 
+vgs                           0.000 
+
+
+
+AC values for Resistor (Mag, Degrees)
+=====================================
+Instance:                          R1                      R2                      RD
+
+Power AC Terms:
+PD                             2.384u                439.315n                  6.381u
+
+AC Pin Currents:
+Ir                    63.196u,179.38°         63.196u,179.38°      63.196u,-620.464m°
+
+Device Variables:
+tc1                            0.000                   0.000                   0.000 
+tc2                            0.000                   0.000                   0.000 
+
+
+Instance:                          RS                      R3                      RG
+
+Power AC Terms:
+PD                    21.147f,0.004f°                323.935u                 16.203u
+
+AC Pin Currents:
+Ir                     3.88n,-90.034°      680.268u,-38.428m°      680.401u,-179.025°
+
+Device Variables:
+tc1                            0.000                   0.000                   0.000 
+tc2                            0.000                   0.000                   0.000 
+
+
+Instance:                      UIN.RS                      RN
+
+Power AC Terms:
+PD                           231.472p                  248.2u
+
+AC Pin Currents:
+Ir                 680.401u,-179.025°         1.704m,179.583°
+
+Device Variables:
+tc1                            0.000                   0.000 
+tc2                            0.000                   0.000 
+
+
+
+AC values for Capacitor (Mag, Degrees)
+======================================
+Instance:                          CS                      C1                      C2
+
+Power AC Terms:
+PS                        9.632n,-90°            58.384n,-90°           881.914n,-90°
+
+AC Pin Currents:
+Ic                   1.767m,-33.915m°      680.401u,974.868m°         1.704m,179.583°
+
+Device Variables:
+ic                             0.000                   0.000                   0.000 
+
+
+
+AC values for Sine Source (Mag, Degrees)
+========================================
+Instance:                         UIN
+Using model:                  GENERAL
+
+Power AC Terms:
+PG                  340.2u,-974.868m°
+
+AC Pin Currents:
+ISource            680.401u,-179.025°
+
+
+
+AC values for SPICE Source (Mag, Degrees)
+=========================================
+Instance:                         V1
+
+Power AC Terms:
+PG                                 0
+
+AC Pin Currents:
+ISource              63.196u,179.38°
+
+

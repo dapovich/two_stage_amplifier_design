@@ -1,0 +1,148 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                       Transient Analysis of design                       ***
+***                            24.12.2021 0:26:43                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           67u*5
+Output Start Time (tstart) 0
+Maximum Time Step          0.1u
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          Off
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1           -36.000   2           -23.969   3            -6.579  
+4          -970.534n  5            -2.630   6             0.000  
+7             0.000   8             0.000  
+
+
+Operating Point for Devices of Type Jfet PJF
+============================================
+Instance:              VT1
+Using model:        2N2608
+
+Capacitance Terms:
+CGS                 6.287p
+CGD                 2.308p
+
+Conductance Terms:
+GM                 25.123m
+GDS                31.004u
+
+Current Terms:
+ID               -934.435u
+
+Voltage Terms:
+VGS                 2.630 
+VDS                -3.949 
+VGD                 6.579 
+
+Power DC Terms:
+PD                  3.690m
+PS                  0.000 
+
+DC Pin Currents:
+Ig                  9.705p
+Id               -934.435u
+Is                934.435u
+
+Condition:
+State                  SAT
+
+Device Variables:
+area                1.000 
+vds                 0.000 
+vgs                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2            RD            RS            R3
+V                  -12.031       -23.969        17.390         2.630       970.534n
+Power DC Terms:
+PD                   2.895         5.745        16.250m        2.458m        0.009f
+
+DC Pin Currents:
+Ir                -240.623m     -239.689m      934.435u      934.435u        9.705p
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:                RG        UIN.RS            RN
+V                    0.000         0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                CS            C1            C2
+V                    2.630      -970.534n        6.579 
+Power DC Terms:
+PS                   0.000         0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:               UIN
+Using model:        GENERAL
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                  36.000 
+Power DC Terms:
+PG                  8.662 
+
+DC Pin Currents:
+ISource          -240.623m
+
+

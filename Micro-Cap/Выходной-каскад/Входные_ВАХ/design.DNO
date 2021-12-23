@@ -1,0 +1,47 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                          DC Analysis of design                           ***
+***                            27.11.2021 0:42:19                            ***
+********************************************************************************
+Limits
+======
+Variable 1 Method        Linear
+Variable 1 Name          VBE
+Variable 1 Range         1,0,0.001
+Variable 2 Method        List
+Variable 2 Name          VCE
+Variable 2 Range         3, 12.3, 23.844
+Temperature              Linear 27
+Number of Points         51
+Maximum Change %         5
+Run Options              Normal
+Auto Scale Ranges        Off
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     VCE=3                     ***
+*****************************************************
+
+Temperature=27 VCE=3
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                   VCE=12.3                    ***
+*****************************************************
+
+Temperature=27 VCE=12.3
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  VCE=23.844                   ***
+*****************************************************
+
+Temperature=27 VCE=23.844
+
