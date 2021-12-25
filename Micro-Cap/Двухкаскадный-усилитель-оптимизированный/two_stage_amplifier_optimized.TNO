@@ -3,11 +3,11 @@
 ***                                                                          ***
 ***                                                                          ***
 ***           Transient Analysis of two_stage_amplifier_optimized            ***
-***                           24.12.2021 16:28:31                            ***
+***                           25.12.2021 14:53:18                            ***
 ********************************************************************************
 Limits
 ======
-Maximum Run Time           253u
+Maximum Run Time           252.6u
 Output Start Time (tstart) 0
 Maximum Time Step          0.1u
 Number of Points           51

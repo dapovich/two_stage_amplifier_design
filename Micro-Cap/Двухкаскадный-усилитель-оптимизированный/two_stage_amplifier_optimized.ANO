@@ -3,7 +3,7 @@
 ***                                                                          ***
 ***                                                                          ***
 ***               AC Analysis of two_stage_amplifier_optimized               ***
-***                           24.12.2021 15:25:31                            ***
+***                           25.12.2021 14:53:31                            ***
 ********************************************************************************
 Limits
 ======
@@ -32,8 +32,8 @@ DC Operating Point Voltages
 Node         Voltage  Node         Voltage  Node         Voltage 
 1           -36.000   2           -23.969   3            -6.576  
 4          -970.269n  5            -2.630   6           -25.689m 
-7             0.000   8            -2.961   9           -12.894  
-10           -2.316   11           -5.138m  12            0.000  
+7             0.000   8            -3.335   9           -18.767  
+10           -2.686   11           -5.138m  12            0.000  
 
 
 Operating Point for Devices of Type Bipolar Junction Transistors PNP
@@ -42,43 +42,43 @@ Instance:              VT2
 Using model:        NZT660
 
 Beta Terms:
-BETADC            452.851 
-BETAAC            450.739 
+BETADC            506.061 
+BETAAC            502.751 
 
 Capacitance Terms:
-CPI                 6.629n
-CMU                34.974p
+CPI                 8.194n
+CMU                29.076p
 CBX                 0.000 
 CJS                 0.000 
 
 Conductance Terms:
-GM                  2.668 
+GM                  3.374 
 
 Current Terms:
-IB                154.617u
-IC                 70.019m
+IB                175.228u
+IC                 88.676m
 
 Resistance Terms:
-RPI               168.965 
-RX                 10.175 
-RO                664.248 
+RPI               149.001 
+RX                  9.999 
+RO                586.342 
 
 Voltage Terms:
-VBE              -645.314m
-VBC                 9.933 
-VCE               -10.578 
+VBE              -649.882m
+VBC                15.431 
+VCE               -16.081 
 
 Frequency Terms:
-FT               63.715MEG
+FT               65.302MEG
 
 Power DC Terms:
-PD                740.768m
+PD                  1.426 
 PS                  0.000 
 
 DC Pin Currents:
-Ib               -154.617u
-Ic                -70.019m
-Ie                 70.173m
+Ib               -175.228u
+Ic                -88.676m
+Ie                 88.851m
 Is                  0.000 
 
 Condition:
@@ -147,19 +147,19 @@ tc2                  0.000         0.000         0.000         0.000         0.0
 
 
 Instance:            UIN.RS            R4            R5            RK            RE
-V                    0.000       -33.039        -2.961       -23.106        -2.316 
+V                    0.000       -32.665        -3.335       -17.233        -2.686 
 Power DC Terms:
-PD                   0.000        86.633m        7.306m        1.618       162.501m
+PD                   0.000        96.515m        9.271m        1.528       238.612m
 
 DC Pin Currents:
-Ir                   0.000        -2.622m       -2.468m      -70.019m      -70.173m
+Ir                   0.000        -2.955m       -2.780m      -88.676m      -88.851m
 
 Device Variables:
 tc1                  0.000         0.000         0.000         0.000         0.000 
 tc2                  0.000         0.000         0.000         0.000         0.000 
 
 
-Instance:                RN            R6            RG            R7
+Instance:                RN           RS2            RG           ROC
 V                   -5.138m       25.689m        0.000        20.551m
 Power DC Terms:
 PD                  87.987n       23.568u        0.000       351.950n
@@ -176,7 +176,7 @@ tc2                  0.000         0.000         0.000         0.000
 Operating Point for Devices of Type Capacitor
 =============================================
 Instance:                CS            C2            CE            C3            C1
-V                    2.605         3.615        -2.316        12.889      -970.269n
+V                    2.605         3.241        -2.686        18.762      -970.269n
 Power DC Terms:
 PS                   0.000         0.000         0.000         0.000         0.000 
 
@@ -206,9 +206,9 @@ Operating Point for Devices of Type SPICE Source
 Instance:                E
 V                  36.000 
 Power DC Terms:
-PG                 11.277 
+PG                 11.961 
 
 DC Pin Currents:
-ISource          -313.264m
+ISource          -332.254m
 
 
