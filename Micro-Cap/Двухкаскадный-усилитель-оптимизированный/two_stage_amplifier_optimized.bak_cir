@@ -232,8 +232,8 @@ Power=0.3
 Name=Capacitor
 Definition=Capacitor
 Shape=Capacitor
-Mask=6401
-Used=48
+Mask=6145
+Used=52
 memo=Capacitor
 Label Offset=16,12,12,12
 PinCnt=2
@@ -319,9 +319,9 @@ Show Grid Text=True
 
 [Comp]
 Name=Resistor
-Px=392,88
-COff=8,410,68,-10,-13
-COff=7,403,94,0,10
+Px=616,128
+COff=8,634,108,-10,-13
+COff=7,633,134,0,10
 
 [Attr]
 ON=18,-20,PART
@@ -339,9 +339,9 @@ V
 
 [Comp]
 Name=Resistor
-Px=256,88
-COff=8,271,67,-15,-12
-COff=7,269,94,-17,13
+Px=480,128
+COff=8,495,107,-15,-12
+COff=7,493,134,-17,13
 
 [Attr]
 ON=15,-21,PART
@@ -359,11 +359,11 @@ V
 
 [Comp]
 Name=2N2608
-Px=320,216
-COff=8,320,216,-52,5
-COff=8,344,192,-22,-21
-COff=8,344,240,-21,8
-COff=23,320,227,42,-27
+Px=544,256
+COff=8,544,256,-52,5
+COff=8,568,232,-22,-21
+COff=8,568,280,-21,8
+COff=23,544,267,42,-27
 
 [Attr]
 ON=36,-17,PART
@@ -385,10 +385,10 @@ V=TO-18
 
 [Comp]
 Name=Resistor
-Px=344,104
+Px=568,144
 Rot=1
-COff=8,352,115,-1,-13
-COff=7,352,129,-2,-1
+COff=8,576,155,-1,-13
+COff=7,576,169,-2,-1
 
 [Attr]
 ON=8,11,PART
@@ -405,14 +405,14 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=344,152,344,176
+Pxs=568,192,568,216
 
 [Comp]
 Name=Resistor
-Px=344,256
+Px=568,296
 Rot=1
-COff=8,352,267,-31,-12
-COff=7,352,281,-27,15
+COff=8,576,307,-31,-12
+COff=7,576,321,-27,15
 
 [Attr]
 ON=8,11,PART
@@ -430,10 +430,10 @@ V
 
 [Comp]
 Name=Capacitor
-Px=424,248
+Px=648,288
 Rot=1
-COff=8,436,260,-29,-12
-COff=7,436,274,-32,16
+COff=8,660,300,-29,-12
+COff=7,660,314,-32,16
 
 [Attr]
 ON=12,12,PART
@@ -451,10 +451,10 @@ V
 
 [Comp]
 Name=Resistor
-Px=264,264
+Px=488,304
 Rot=1
-COff=8,272,275,-24,-17
-COff=7,272,289,-27,16
+COff=8,496,315,-24,-17
+COff=7,496,329,-27,16
 
 [Attr]
 ON=8,11,PART
@@ -471,19 +471,19 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=264,312,264,384
+Pxs=488,352,488,424
 
 [Wire]
-Pxs=264,216,264,264
+Pxs=488,256,488,304
 
 [Wire]
-Pxs=264,216,320,216
+Pxs=488,256,544,256
 
 [Comp]
 Name=Sine Source
-Px=160,312
+Px=384,352
 Rot=1
-COff=7,96,272,2,-10
+COff=7,320,312,2,-10
 
 [Attr]
 ON=-34,3,PART
@@ -499,13 +499,13 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=264,384,344,384
+Pxs=488,424,568,424
 
 [Comp]
 Name=Capacitor
-Px=408,176
-COff=8,426,151,21,0
-COff=7,418,189,17,-7
+Px=632,216
+COff=8,650,191,21,0
+COff=7,642,229,17,-7
 
 [Attr]
 ON=18,-25,PART
@@ -522,30 +522,30 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=344,176,408,176
+Pxs=568,216,632,216
 
 [Wire]
-Pxs=344,176,344,192
+Pxs=568,216,568,232
 
 [Wire]
-Pxs=344,88,344,104
+Pxs=568,128,568,144
 
 [Wire]
-Pxs=304,88,344,88
+Pxs=528,128,568,128
 
 [Wire]
-Pxs=344,88,392,88
+Pxs=568,128,616,128
 
 [Comp]
 Name=Resistor
-Px=512,144
+Px=736,184
 Rot=3
-COff=8,487,106,10,30
-COff=7,474,121,20,30
+COff=8,711,144,10,30
+COff=7,684,159,20,30
 
 [Attr]
-ON=-25,-38,PART
-V=R1
+ON=-25,-40,PART
+V=R4
 Style=8192
 Font=Arial
 
@@ -577,14 +577,14 @@ Font=Arial
 
 [Comp]
 Name=Resistor
-Px=512,320
+Px=736,360
 Rot=3
-COff=8,487,283,-6,-15
-COff=7,481,297,-3,15
+COff=8,711,323,-6,-15
+COff=7,705,337,-3,15
 
 [Attr]
 ON=-25,-37,PART
-V=R2
+V=R5
 Style=8192
 Font=Arial
 
@@ -616,12 +616,12 @@ Font=Arial
 
 [Comp]
 Name=PNP
-Px=568,216
+Px=792,256
 Rot=4
-COff=8,568,216,-42,-14
-COff=8,592,192,-27,-21
-COff=8,592,240,-30,9
-COff=23,568,216,44,-16
+COff=8,792,256,-42,-14
+COff=8,816,232,-27,-21
+COff=8,816,280,-30,9
+COff=23,792,256,44,-16
 
 [Attr]
 ON=40,-15,PART
@@ -657,10 +657,10 @@ Font=Arial
 
 [Comp]
 Name=Resistor
-Px=592,144
+Px=816,184
 Rot=3
-COff=8,572,107,32,-5
-COff=7,566,119,38,0
+COff=8,792,147,32,-5
+COff=7,769,159,38,0
 
 [Attr]
 ON=-24,-37,PART
@@ -696,10 +696,10 @@ Font=Arial
 
 [Comp]
 Name=Resistor
-Px=592,320
+Px=816,360
 Rot=3
-COff=8,569,283,-14,-15
-COff=7,571,296,-17,17
+COff=8,793,323,-14,-15
+COff=7,772,336,-17,17
 
 [Attr]
 ON=-23,-37,PART
@@ -735,10 +735,10 @@ Font=Arial
 
 [Comp]
 Name=Capacitor
-Px=656,320
+Px=880,360
 Rot=5
-COff=8,627,278,21,-5
-COff=7,621,291,28,12
+COff=8,851,318,21,-5
+COff=7,845,331,28,12
 
 [Attr]
 ON=-29,-42,PART
@@ -779,10 +779,10 @@ Font=Arial
 
 [Comp]
 Name=Resistor
-Px=744,280
+Px=968,320
 Rot=3
-COff=8,719,235,42,-2
-COff=7,715,248,45,1
+COff=8,943,280,42,-2
+COff=7,939,293,45,1
 
 [Attr]
 ON=-25,-40,PART
@@ -818,9 +818,9 @@ Font=Arial
 
 [Comp]
 Name=Capacitor
-Px=632,184
+Px=856,224
 Rot=4
-COff=7,646,195,45,5
+COff=7,870,235,45,5
 
 [Attr]
 ON=19,-23,PART
@@ -861,10 +861,10 @@ Font=Arial
 
 [Comp]
 Name=Battery
-Px=640,88
+Px=864,128
 Rot=4
-COff=8,660,68,20,27
-COff=7,658,101,19,8
+COff=8,884,108,20,27
+COff=7,882,136,19,8
 
 [Attr]
 ON=20,-20,PART
@@ -890,128 +890,128 @@ Font=Arial
 
 [Comp]
 Name=Ground
-Px=744,104
+Px=968,144
 Rot=1
 
 [Wire]
-Pxs=688,88,744,88
+Pxs=912,128,968,128
 
 [Wire]
-Pxs=512,88,592,88
+Pxs=736,128,816,128
 
 [Wire]
-Pxs=512,88,512,96
+Pxs=736,128,736,136
 
 [Wire]
-Pxs=592,88,592,96
+Pxs=816,128,816,136
 
 [Wire]
-Pxs=592,88,640,88
+Pxs=816,128,864,128
 
 [Wire]
-Pxs=592,144,592,184
+Pxs=816,184,816,224
 
 [Wire]
-Pxs=656,256,656,272
+Pxs=880,296,880,312
 
 [Wire]
-Pxs=592,256,656,256
+Pxs=816,296,880,296
 
 [Wire]
-Pxs=592,240,592,256
+Pxs=816,280,816,296
 
 [Wire]
-Pxs=592,256,592,272
+Pxs=816,296,816,312
 
 [Wire]
-Pxs=512,144,512,176
+Pxs=736,184,736,216
 
 [Wire]
-Pxs=512,216,512,272
+Pxs=736,256,736,312
 
 [Wire]
-Pxs=512,216,568,216
+Pxs=736,256,792,256
 
 [Wire]
-Pxs=512,320,512,384
+Pxs=736,360,736,424
 
 [Wire]
-Pxs=592,320,592,384
+Pxs=816,360,816,424
 
 [Wire]
-Pxs=656,320,656,384
+Pxs=880,360,880,424
 
 [Wire]
-Pxs=512,384,592,384
+Pxs=736,424,816,424
 
 [Wire]
-Pxs=456,176,512,176
+Pxs=680,216,736,216
 
 [Wire]
-Pxs=512,176,512,216
+Pxs=736,216,736,256
 
 [Wire]
-Pxs=440,88,512,88
+Pxs=664,128,736,128
 
 [Wire]
-Pxs=744,184,744,232
+Pxs=968,224,968,272
 
 [Wire]
-Pxs=592,384,656,384
+Pxs=816,424,880,424
 
 [Comp]
 Name=Ground
-Px=744,304
+Px=968,344
 Rot=1
 
 [Wire]
-Pxs=232,88,256,88
+Pxs=456,128,480,128
 
 [Wire]
-Pxs=232,88,232,104
+Pxs=456,128,456,144
 
 [Comp]
 Name=Ground
-Px=232,104
+Px=456,144
 Rot=1
 
 [Wire]
-Pxs=744,280,744,304
+Pxs=968,320,968,344
 
 [Comp]
 Name=Ground
-Px=688,392
+Px=912,432
 Rot=1
 
 [Comp]
 Name=Ground
-Px=160,392
+Px=384,432
 Rot=1
 
 [Wire]
-Pxs=656,384,688,384
+Pxs=880,424,912,424
 
 [Wire]
-Pxs=688,384,688,392
+Pxs=912,424,912,432
 
 [Wire]
-Pxs=744,88,744,104
+Pxs=968,128,968,144
 
 [Wire]
-Pxs=680,184,704,184
+Pxs=904,224,928,224
 
 [Wire]
-Pxs=592,184,632,184
+Pxs=816,224,856,224
 
 [Wire]
-Pxs=592,184,592,192
+Pxs=816,224,816,232
 
 [Comp]
 Name=Resistor
-Px=344,320
+Px=568,360
 Rot=1
-COff=8,352,331,-31,-12
-COff=7,352,345,-27,15
+COff=8,576,371,-31,-12
+COff=7,576,385,-27,15
 
 [Attr]
 ON=8,11,PART
@@ -1028,17 +1028,17 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=344,384,512,384
+Pxs=568,424,736,424
 
 [Wire]
-Pxs=160,360,160,392
+Pxs=384,400,384,432
 
 [Comp]
 Name=Resistor
-Px=160,240
+Px=384,280
 Rot=1
-COff=40,136,248,-24,-17
-COff=7,135,265,-27,16
+COff=40,360,288,-24,-17
+COff=7,359,305,-27,16
 
 [Attr]
 ON=-24,8,PART
@@ -1056,9 +1056,9 @@ V
 
 [Comp]
 Name=Capacitor
-Px=192,216
-COff=40,210,191,21,0
-COff=7,202,229,17,-7
+Px=416,256
+COff=40,434,231,21,0
+COff=7,426,269,17,-7
 
 [Attr]
 ON=18,-25,PART
@@ -1075,46 +1075,46 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=160,216,160,240
+Pxs=384,256,384,280
 
 [Wire]
-Pxs=160,216,192,216
+Pxs=384,256,416,256
 
 [Wire]
-Pxs=240,216,264,216
+Pxs=464,256,488,256
 
 [Wire]
-Pxs=160,288,160,312
+Pxs=384,328,384,352
 
 [Wire]
-Pxs=344,240,344,248
+Pxs=568,280,568,288
 
 [Wire]
-Pxs=344,304,344,312
+Pxs=568,344,568,352
 
 [Wire]
-Pxs=344,368,344,384
+Pxs=568,408,568,424
 
 [Wire]
-Pxs=344,248,424,248
+Pxs=568,288,648,288
 
 [Wire]
-Pxs=344,248,344,256
+Pxs=568,288,568,296
 
 [Wire]
-Pxs=344,312,424,312
+Pxs=568,352,648,352
 
 [Wire]
-Pxs=344,312,344,320
+Pxs=568,352,568,360
 
 [Wire]
-Pxs=424,296,424,312
+Pxs=648,336,648,352
 
 [Comp]
 Name=Resistor
-Px=528,416
-COff=8,546,396,-12,-4
-COff=7,539,422,-12,4
+Px=752,456
+COff=8,765,436,-12,-4
+COff=7,763,462,-12,4
 
 [Attr]
 ON=13,-20,PART
@@ -1131,19 +1131,19 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=424,416,528,416
+Pxs=648,456,752,456
 
 [Wire]
-Pxs=576,416,704,416
+Pxs=800,456,928,456
 
 [Wire]
-Pxs=704,184,744,184
+Pxs=928,224,968,224
 
 [Wire]
-Pxs=704,184,704,416
+Pxs=928,224,928,456
 
 [Wire]
-Pxs=424,312,424,416
+Pxs=648,352,648,456
 
 [Schematic]
 CurrentSection 0=0
@@ -1153,7 +1153,7 @@ CurrentSection 3=0
 Splitter.xs=0
 Splitter.ys=0
 TextQuad=4099
-Scale=1
+Scale=0.66666666666666663
 GridUser=10
 ShapeGroups="Euro","Main","Polarity","Main1","Main11","Electrolytic","GroundArrow","DeMorgan"
 CalcRMS=False
@@ -1341,9 +1341,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=35,22
-Scale 3=1
-Px=302,467
+SB 3=294,120
+Scale 3=0.66666666666666663
+Px=382,210
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1996,21 +1996,6 @@ ALIGNBOTTOM=No
 Analysis=AC
 Name="MAIN"
 
-[AObject]
-Analysis=AC
-Object=Tag
-Locked=True
-Weight=2
-EndPoint=ArrowF
-CBorder=#000080
-w=0
-AliasID1=1
-Pos=5000.0000000000127,30.683944487514939,7527.5211146330721,50.869565217391298
-Font=Height=-37,FStyle=4,Color=#000000,Name=Arial
-Format=3
-FormatY=3
-Branch=0
-
 [Monte Carlo Options]
 Analysis=Transient
 Status=Off
@@ -2031,7 +2016,7 @@ Seed=0
 
 [Limits]
 Analysis=Transient
-TMax=253u
+TMax=252.6u
 TStart=0
 TStep=0.1u
 NPts=51
@@ -2049,7 +2034,7 @@ Plt=2
 AliasID=1
 XExp=T
 YExp=v(Rn)
-XRng=252u, 0
+XRng=249.6u, 0
 YRng=10,-10
 Options=LINEARX,LINEARY
 Range Grid X=25u
@@ -2077,7 +2062,7 @@ Plt=1
 AliasID=2
 XExp=T
 YExp=v(Uin)
-XRng=252u, 0
+XRng=249.6u, 0
 YRng=0.4,-0.4
 Options=LINEARX,LINEARY
 Range Grid X=25u
@@ -2171,10 +2156,10 @@ AliasID=2
 XExp=F
 YExp=ph(v(Rn))
 XRng=1e+8,1
-YRng=600,-400
+YRng=0,-750
 Options=LINEARY
 Range Grid X=2e+7
-Range Grid Y=200
+Range Grid Y=150
 Enable=Enable
 CS=Normal
 Line Color=#FF0000
@@ -2361,6 +2346,54 @@ MRUDockID=59421
 Floating=False
 LocalOffset=True
 Rect=-2,233,48,393
+
+[Slider]
+Analysis=AC
+Link="C1"
+Min="1u"
+Max="10p"
+Default="62n"
+Format=3
+Method=Linear
+Show=True
+Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
+StepSize="1%"
+MRUDockID=59421
+Floating=False
+LocalOffset=True
+Rect=88,-2,134,158
+
+[Slider]
+Analysis=AC
+Link="C2"
+Min="165n"
+Max="660n"
+Default="330n"
+Format=3
+Method=Linear
+Show=True
+Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
+StepSize="10%"
+MRUDockID=59421
+Floating=False
+LocalOffset=True
+Rect=42,-2,90,158
+
+[Slider]
+Analysis=AC
+Link="CE"
+Min="1p"
+Max="1m"
+Default="14m"
+Format=3
+Method=Linear
+Show=True
+Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
+StepSize="10%"
+MRUDockID=59421
+Floating=False
+LocalOffset=True
+Rect=-2,-2,44,158
 
 [OPMethods]
 Analysis=Transient

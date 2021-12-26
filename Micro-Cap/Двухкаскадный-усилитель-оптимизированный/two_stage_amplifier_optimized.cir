@@ -7,7 +7,7 @@ Shape Version=11.00
 Screen=1536,864
 MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=87
+NLCnt=104
 TXCnt=0
 
 [shapedef]
@@ -232,8 +232,8 @@ Power=0.3
 Name=Capacitor
 Definition=Capacitor
 Shape=Capacitor
-Mask=6401
-Used=48
+Mask=6145
+Used=55
 memo=Capacitor
 Label Offset=16,12,12,12
 PinCnt=2
@@ -405,7 +405,7 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=568,192,568,216
+Pxs=568,192,568,208
 
 [Comp]
 Name=Resistor
@@ -477,7 +477,7 @@ Pxs=488,352,488,424
 Pxs=488,256,488,304
 
 [Wire]
-Pxs=488,256,544,256
+Pxs=488,256,504,256
 
 [Comp]
 Name=Sine Source
@@ -514,7 +514,7 @@ Style=8192
 
 [Attr]
 ON=10,13,CAPACITANCE
-V=0.33u
+V=18n
 Style=8192
 
 [Attr]
@@ -909,7 +909,7 @@ Pxs=816,128,816,136
 Pxs=816,128,864,128
 
 [Wire]
-Pxs=816,184,816,224
+Pxs=816,184,816,208
 
 [Wire]
 Pxs=880,296,880,312
@@ -930,7 +930,7 @@ Pxs=736,184,736,216
 Pxs=736,256,736,312
 
 [Wire]
-Pxs=736,256,792,256
+Pxs=736,256,752,256
 
 [Wire]
 Pxs=736,360,736,424
@@ -1067,7 +1067,7 @@ Style=8192
 
 [Attr]
 ON=10,13,CAPACITANCE
-V=62n
+V=19.6n
 Style=8192
 
 [Attr]
@@ -1114,7 +1114,7 @@ Pxs=648,336,648,352
 Name=Resistor
 Px=752,456
 COff=8,765,436,-12,-4
-COff=7,763,462,-12,4
+COff=7,763,459,-12,4
 
 [Attr]
 ON=13,-20,PART
@@ -1122,7 +1122,7 @@ V=Roc
 Style=8192
 
 [Attr]
-ON=11,6,RESISTANCE
+ON=11,3,RESISTANCE
 V=1.2K
 Style=8192
 
@@ -1131,10 +1131,10 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=648,456,752,456
+Pxs=648,456,736,456
 
 [Wire]
-Pxs=800,456,928,456
+Pxs=800,456,816,456
 
 [Wire]
 Pxs=928,224,968,224
@@ -1145,6 +1145,102 @@ Pxs=928,224,928,456
 [Wire]
 Pxs=648,352,648,456
 
+[Comp]
+Name=Capacitor
+Px=752,208
+
+[Attr]
+ON=16,-24,PART
+V=C4
+Style=8192
+
+[Attr]
+ON=8,9,CAPACITANCE
+V=109.9p
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Wire]
+Pxs=800,208,816,208
+
+[Wire]
+Pxs=816,208,816,224
+
+[Wire]
+Pxs=752,208,752,256
+
+[Wire]
+Pxs=752,256,792,256
+
+[Comp]
+Name=Capacitor
+Px=752,496
+
+[Attr]
+ON=15,-22,PART
+V=C5
+Style=8192
+
+[Attr]
+ON=8,9,CAPACITANCE
+V=3.607n
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Wire]
+Pxs=736,496,752,496
+
+[Wire]
+Pxs=736,456,736,496
+
+[Wire]
+Pxs=736,456,752,456
+
+[Wire]
+Pxs=800,496,816,496
+
+[Wire]
+Pxs=816,456,816,496
+
+[Wire]
+Pxs=816,456,928,456
+
+[Comp]
+Name=Capacitor
+Px=504,208
+
+[Attr]
+ON=16,-24,PART
+V=C6
+Style=8192
+
+[Attr]
+ON=8,9,CAPACITANCE
+V=0.62p
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Wire]
+Pxs=552,208,568,208
+
+[Wire]
+Pxs=568,208,568,216
+
+[Wire]
+Pxs=504,208,504,256
+
+[Wire]
+Pxs=504,256,544,256
+
 [Schematic]
 CurrentSection 0=0
 CurrentSection 1=0
@@ -1153,7 +1249,7 @@ CurrentSection 3=0
 Splitter.xs=0
 Splitter.ys=0
 TextQuad=4099
-Scale=1
+Scale=0.66666666666666663
 GridUser=10
 ShapeGroups="Euro","Main","Polarity","Main1","Main11","Electrolytic","GroundArrow","DeMorgan"
 CalcRMS=False
@@ -1341,9 +1437,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=219,103
+SB 3=284,122
 Scale 3=0.66666666666666663
-Px=861,377
+Px=397,191
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1407,6 +1503,7 @@ Type=Text
 Print=False
 Enable=True
 Name=Models
+SB 0=45,18
 Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
 Comment Color=#008000
 WinBackGround Color=#FFFFFF
@@ -1455,7 +1552,7 @@ Text=* A .cir file is typically found in the data directory
 Text=*
 Text=*** From file C:\MC12\library\UTILITY.LBR
 Text=*** 10MHz Sinusoidal Source
-Text=.MODEL GENERAL SIN (A=380m F=14.910K RS=0.0000001)
+Text=.MODEL GENERAL SIN (A=380m F=7K RS=0.0000001)
 
 [InfoPage]
 InfoPage=True
@@ -1996,21 +2093,6 @@ ALIGNBOTTOM=No
 Analysis=AC
 Name="MAIN"
 
-[AObject]
-Analysis=AC
-Object=Tag
-Locked=True
-Weight=2
-EndPoint=ArrowF
-CBorder=#000080
-w=0
-AliasID1=1
-Pos=5000.0000000000127,30.683944487514939,7527.5211146330721,50.869565217391298
-Font=Height=-37,FStyle=4,Color=#000000,Name=Arial
-Format=3
-FormatY=3
-Branch=0
-
 [Monte Carlo Options]
 Analysis=Transient
 Status=Off
@@ -2143,10 +2225,10 @@ AliasID=1
 XExp=F
 YExp=dB(v(Rn))
 XRng=1e+8,1
-YRng=60,-90
+YRng=80,-120
 Options=LINEARY
 Range Grid X=2e+7
-Range Grid Y=30
+Range Grid Y=40
 Enable=Enable
 CS=Normal
 Line Color=#0000FF
@@ -2171,10 +2253,10 @@ AliasID=2
 XExp=F
 YExp=ph(v(Rn))
 XRng=1e+8,1
-YRng=0,-750
+YRng=200,-800
 Options=LINEARY
 Range Grid X=2e+7
-Range Grid Y=150
+Range Grid Y=200
 Enable=Enable
 CS=Normal
 Line Color=#FF0000
@@ -2376,7 +2458,7 @@ StepSize="1%"
 MRUDockID=59421
 Floating=False
 LocalOffset=True
-Rect=88,-2,134,158
+Rect=88,-2,140,158
 
 [Slider]
 Analysis=AC
