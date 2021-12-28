@@ -4,7 +4,7 @@ Version=12.00
 Program=Micro-Cap
 Component Version=10.00
 Shape Version=11.00
-Screen=1536,864
+Screen=1600,900
 MCAPVersion=12.2.0.5
 Key ID=Demo
 NLCnt=87
@@ -232,8 +232,8 @@ Power=0.3
 Name=Capacitor
 Definition=Capacitor
 Shape=Capacitor
-Mask=6401
-Used=48
+Mask=6145
+Used=58
 memo=Capacitor
 Label Offset=16,12,12,12
 PinCnt=2
@@ -737,17 +737,17 @@ Font=Arial
 Name=Capacitor
 Px=656,320
 Rot=5
-COff=8,627,278,21,-5
-COff=7,621,291,28,12
+COff=8,630,282,21,-5
+COff=7,624,295,28,12
 
 [Attr]
-ON=-29,-42,PART
+ON=-26,-38,PART
 V=Ce
 Style=8192
 Font=Arial
 
 [Attr]
-ON=-35,-29,CAPACITANCE
+ON=-32,-25,CAPACITANCE
 V=14m
 Style=8192
 Font=Arial
@@ -1015,7 +1015,7 @@ COff=7,352,345,-27,15
 
 [Attr]
 ON=8,11,PART
-V=R6
+V=Rs2
 Style=8192
 
 [Attr]
@@ -1113,12 +1113,12 @@ Pxs=424,296,424,312
 [Comp]
 Name=Resistor
 Px=528,416
-COff=8,546,396,-12,-5
+COff=8,542,396,-12,-5
 COff=7,539,422,-12,4
 
 [Attr]
-ON=18,-20,PART
-V=R7
+ON=14,-20,PART
+V=Roc
 Style=8192
 
 [Attr]
@@ -1341,9 +1341,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=45,43
+SB 3=180,87
 Scale 3=0.66666666666666663
-Px=792,164
+Px=213,41
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -2003,7 +2003,7 @@ EndPoint=ArrowF
 CBorder=#000080
 w=0
 AliasID1=1
-Pos=5000.0000000000127,30.683944487514939,8617.6555975137671,68.815165876777243
+Pos=1614.3585568264486,30.687875579541704,343.37160294726164,66.428571428571431
 Font=Height=-37,FStyle=4,Color=#000000,Name=Arial
 Format=3
 FormatY=3

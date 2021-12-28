@@ -7,7 +7,7 @@ Shape Version=11.00
 Screen=1536,864
 MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=99
+NLCnt=104
 TXCnt=0
 
 [shapedef]
@@ -233,7 +233,7 @@ Name=Capacitor
 Definition=Capacitor
 Shape=Capacitor
 Mask=6145
-Used=51
+Used=55
 memo=Capacitor
 Label Offset=16,12,12,12
 PinCnt=2
@@ -290,8 +290,8 @@ Pin="PinA",0,0,-3,-7
 
 [Circuit]
 Window Placement=2,3, -1,-1, -8,-31, 0,0,561,360
-Default Object=Color=#000080,Width=2,Pattern=Dash6
-Default Object Font=Height=-37,FStyle=2,Color=#000000,Name=GOST2304 Type B
+Default Object=Color=#000080,Width=2
+Default Object Font=Height=-37,FStyle=6,Color=#000000,Name=Arial
 Default Object Apply Border To Text=No
 Default Object Apply Fill To Text=No
 Default Object GridSnap=No
@@ -311,7 +311,7 @@ Show Nodes=False
 Show Voltages=True
 Show Current=True
 Show Power=True
-Show Condition=True
+Show Condition=False
 Show Pin Connections=False
 Show Connection Warnings=False
 Show Cross=False
@@ -322,7 +322,7 @@ Show Grid Text=False
 Name=Resistor
 Px=616,128
 COff=8,634,108,-10,-13
-COff=7,633,134,0,10
+COff=7,633,134,-6,6
 
 [Attr]
 ON=18,-20,PART
@@ -388,7 +388,7 @@ V=TO-18
 Name=Resistor
 Px=568,144
 Rot=1
-COff=8,576,155,-1,-13
+COff=8,576,155,-4,16
 COff=7,576,169,-4,-13
 
 [Attr]
@@ -406,7 +406,7 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=568,192,568,216
+Pxs=568,192,568,200
 
 [Comp]
 Name=Resistor
@@ -478,7 +478,7 @@ Pxs=488,352,488,424
 Pxs=488,256,488,304
 
 [Wire]
-Pxs=488,256,544,256
+Pxs=488,256,504,256
 
 [Comp]
 Name=Sine Source
@@ -553,7 +553,7 @@ Font=Arial
 
 [Attr]
 ON=-52,-25,RESISTANCE
-V=11.505K
+V=12.072K
 Style=8192
 Font=Arial
 
@@ -592,7 +592,7 @@ Font=Arial
 
 [Attr]
 ON=-45,-25,RESISTANCE
-V=1.194K
+V=1.212K
 Style=8192
 Font=Arial
 
@@ -1115,8 +1115,8 @@ Pxs=648,336,648,352
 [Comp]
 Name=Resistor
 Px=752,456
-COff=8,765,436,-12,-4
-COff=7,763,462,-12,4
+COff=8,765,436,-9,-3
+COff=7,763,462,-17,6
 
 [Attr]
 ON=13,-20,PART
@@ -1125,7 +1125,7 @@ Style=8192
 
 [Attr]
 ON=11,6,RESISTANCE
-V=1.15K
+V=1.154K
 Style=8192
 
 [Attr]
@@ -1150,6 +1150,7 @@ Pxs=648,352,648,456
 [Comp]
 Name=Capacitor
 Px=752,200
+COff=7,764,208,-15,-15
 
 [Attr]
 ON=16,-24,PART
@@ -1180,14 +1181,16 @@ Pxs=816,200,816,224
 [Comp]
 Name=Capacitor
 Px=752,496
+COff=8,768,476,-14,13
+COff=7,764,504,-27,8
 
 [Attr]
-ON=16,-24,PART
+ON=16,-20,PART
 V=C5
 Style=8192
 
 [Attr]
-ON=12,8,CAPACITANCE
+ON=8,16,CAPACITANCE
 V=3.607n
 Style=8192
 
@@ -1212,6 +1215,37 @@ Pxs=824,456,824,496
 
 [Wire]
 Pxs=824,456,928,456
+
+[Comp]
+Name=Capacitor
+Px=504,200
+COff=7,516,208,-31,-12
+
+[Attr]
+ON=16,-24,PART
+V=C6
+Style=8192
+
+[Attr]
+ON=12,8,CAPACITANCE
+V=0.62p
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Wire]
+Pxs=504,200,504,256
+
+[Wire]
+Pxs=552,200,568,200
+
+[Wire]
+Pxs=504,256,544,256
+
+[Wire]
+Pxs=568,200,568,216
 
 [Schematic]
 CurrentSection 0=0
@@ -1409,9 +1443,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=197,59
+SB 3=0,52
 Scale 3=1
-Px=725,101
+Px=1062,189
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1767,8 +1801,24 @@ ALIGNBOTTOM=No
 [APage]
 Analysis=Transient
 Name="MAIN"
-Height_0=46.031746031746053
-Height_1=53.968253968253947
+Height_0=44.620811287477977
+Height_1=55.379188712522023
+
+[AObject]
+Analysis=Transient
+Object=MeasureV
+Locked=True
+Weight=2
+EndPoint=ArrowF
+CBorder=#000080
+w=0
+AliasID1=1
+w2=0
+AliasID2=1
+Pos=0.00073655999999988251,9.3384510358681432,0.00065095999999992683,-9.2765660216321901
+Posm=0.00073440285204991087
+Font=Height=-37,FStyle=6,Color=#000000,Name=Arial
+Format=3
 
 [AObject]
 Analysis=Transient
@@ -1777,11 +1827,10 @@ Locked=True
 Weight=2
 EndPoint=ArrowF
 CBorder=#000080
-Pattern=Dash6
 w=0
 AliasID1=1
-Pos=0.0092757599999991752,-9.3776263672825628,0.0091434019832189184,-5.4978354978354975
-Font=Height=-37,FStyle=2,Color=#0000FF,Name=GOST2304 Type B
+Pos=0.00042426000000000947,9.4022141439722517,0.00026809269162210339,9.4871794871794872
+Font=Height=-37,FStyle=6,Color=#000000,Name=Arial
 Format=3
 FormatY=3
 
@@ -1792,11 +1841,10 @@ Locked=True
 Weight=2
 EndPoint=ArrowF
 CBorder=#000080
-Pattern=Dash6
 w=0
 AliasID1=1
-Pos=0.0093497599999987357,9.3307593623557405,0.0092585812356979422,10
-Font=Height=-37,FStyle=2,Color=#0000FF,Name=GOST2304 Type B
+Pos=0.0003472600000000076,-9.3532245086647716,0.00052905525846702313,-6.1538461538461542
+Font=Height=-37,FStyle=6,Color=#000000,Name=Arial
 Format=3
 FormatY=3
 
@@ -1814,35 +1862,19 @@ JustifyV=Top
 
 [AObject]
 Analysis=Transient
-Object=Line
+Object=MeasureV
+Locked=True
 Weight=2
+EndPoint=ArrowF
 CBorder=#000080
-Pattern=Dash6
 w=0
 AliasID1=1
-Pos=0.00050000000000000001,9.3073593073593059,0.001,9.3939393939393927
-
-[AObject]
-Analysis=Transient
-Object=Line
-Weight=2
-CBorder=#000080
-Pattern=Dash6
-w=0
-AliasID1=1
-Pos=0.00050000000000000001,-9.3073593073593059,0.001,-9.220779220779221
-
-[AObject]
-Analysis=Transient
-Object=Text
-CBorder=None
-w=0
-AliasID1=1
-Pos=0.00050038729666924866,-9.1948051948051948,0,0
-Font=Height=-37,FStyle=2,Color=#000000,Name=GOST2304 Type B
-Text="-Uím"
-JustifyH=Left
-JustifyV=Top
+w2=0
+AliasID2=1
+Pos=0.0011754599999998709,6.2826559698913194,0.0091137600000001373,-9.2767885804819024
+Posm=0.001142602495543672
+Font=Height=-37,FStyle=6,Color=#000000,Name=Arial
+Format=3
 
 [AC]
 WinID=2
@@ -1898,7 +1930,7 @@ Cursor Select Color Secondary=#FF0000
 Data Point Labels Color Fore=Height=-15,FStyle=0,Color=#000000,Name=Arial
 Data Point Labels Color Back=#FFFF00
 OperPoint=True
-AutoScaleRanges=True
+AutoScaleRanges=False
 FFT_NPts="8192"
 FFT_IncludeDCHarmonic=False
 FFT_AutoScale_Harmonics="10"
@@ -2064,6 +2096,51 @@ ALIGNBOTTOM=No
 Analysis=AC
 Name="MAIN"
 
+[AObject]
+Analysis=AC
+Object=Tag
+Locked=True
+Weight=2
+EndPoint=Dot
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=180.6131991544126,25.553000000000004,16.889098208561986,34.782608695652172
+Font=Height=-37,FStyle=6,Color=#000000,Name=Arial
+Format=3
+FormatY=3
+Branch=0
+
+[AObject]
+Analysis=AC
+Object=Tag
+Locked=True
+Weight=2
+EndPoint=Dot
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=30107.361621048807,25.553000000000004,42366.158784164989,33.175355450236964
+Font=Height=-37,FStyle=6,Color=#000000,Name=Arial
+Format=3
+FormatY=3
+Branch=0
+
+[AObject]
+Analysis=AC
+Object=Tag
+Locked=True
+Weight=2
+EndPoint=Dot
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=2208.0047330188468,28.552735697618623,2802.0700720694094,37.815126050420169
+Font=Height=-37,FStyle=6,Color=#000000,Name=Arial
+Format=3
+FormatY=3
+Branch=0
+
 [Monte Carlo Options]
 Analysis=Transient
 Status=Off
@@ -2084,7 +2161,7 @@ Seed=0
 
 [Limits]
 Analysis=Transient
-TMax=10.12m
+TMax=1.043m
 TStart=0
 TStep=0.1u
 NPts=51
@@ -2102,10 +2179,10 @@ Plt=2
 AliasID=1
 XExp=T
 YExp=v(Rn)
-XRng=10m, 9m
+XRng=0.8m,0
 YRng=10,-10
 Options=LINEARX,LINEARY
-Range Grid X=0.5m
+Range Grid X=0.2m
 Range Grid Y=2
 Enable=Enable
 CS=Normal
@@ -2130,10 +2207,10 @@ Plt=1
 AliasID=2
 XExp=T
 YExp=v(Uin)
-XRng=10m, 9m
+XRng=0.8m,0
 YRng=1,-1
 Options=LINEARX,LINEARY
-Range Grid X=0.5m
+Range Grid X=0.2m
 Range Grid Y=0.2
 Enable=Enable
 CS=Normal
@@ -2195,11 +2272,11 @@ Plt=1
 AliasID=1
 XExp=F
 YExp=dB(v(Rn))
-XRng=1e+8,1
-YRng=80,-120
+XRng=1e+6,10
+YRng=40,0
 Options=LINEARY
 Range Grid X=2e+7
-Range Grid Y=40
+Range Grid Y=5
 Enable=Enable
 CS=Normal
 Line Color=#0000FF
@@ -2223,7 +2300,7 @@ Plt=2
 AliasID=2
 XExp=F
 YExp=ph(v(Rn))
-XRng=1e+8,1
+XRng=1e+6,10
 YRng=200,-800
 Options=LINEARY
 Range Grid X=2e+7
@@ -2327,7 +2404,7 @@ Max="632"
 Default="316"
 Format=3
 Method=Linear
-Show=True
+Show=False
 Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
 StepSize="1%"
 MRUDockID=59421
@@ -2343,7 +2420,7 @@ Max="62"
 Default="31"
 Format=3
 Method=Linear
-Show=True
+Show=False
 Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
 StepSize="1%"
 MRUDockID=59421
@@ -2375,13 +2452,13 @@ Max="25.2K"
 Default="12.6K"
 Format=3
 Method=Linear
-Show=True
+Show=False
 Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
 StepSize="1%"
 MRUDockID=59421
 Floating=False
 LocalOffset=True
-Rect=58,187,127,347
+Rect=58,187,128,347
 
 [Slider]
 Analysis=Transient
@@ -2391,7 +2468,7 @@ Max="2.4K"
 Default="1.2K"
 Format=3
 Method=Linear
-Show=True
+Show=False
 Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
 StepSize="1%"
 MRUDockID=59421
@@ -2407,13 +2484,13 @@ Max="2.4K"
 Default="1.2K"
 Format=3
 Method=Linear
-Show=True
+Show=False
 Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
 StepSize="1%"
 MRUDockID=59421
 Floating=False
 LocalOffset=True
-Rect=-2,187,52,347
+Rect=-2,187,60,347
 
 [Slider]
 Analysis=AC
@@ -2423,13 +2500,13 @@ Max="0.00001n"
 Default="62n"
 Format=3
 Method=Linear
-Show=True
+Show=False
 Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
 StepSize="1%"
 MRUDockID=59421
 Floating=False
 LocalOffset=True
-Rect=114,10,166,170
+Rect=-2,10,50,170
 
 [Slider]
 Analysis=AC
@@ -2439,13 +2516,13 @@ Max="0.33u"
 Default="330n"
 Format=3
 Method=Linear
-Show=True
+Show=False
 Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
 StepSize="1%"
 MRUDockID=59421
 Floating=False
 LocalOffset=True
-Rect=114,168,162,328
+Rect=-2,168,46,328
 
 [Slider]
 Analysis=AC
@@ -2519,13 +2596,13 @@ Max="10000p"
 Default="10p"
 Format=3
 Method=Linear
-Show=True
+Show=False
 Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
 StepSize="0.1%"
 MRUDockID=59421
 Floating=False
 LocalOffset=True
-Rect=56,-2,116,158
+Rect=-2,-2,58,158
 
 [Slider]
 Analysis=AC
@@ -2535,7 +2612,7 @@ Max="10000p"
 Default="100p"
 Format=3
 Method=Linear
-Show=True
+Show=False
 Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
 StepSize="1%"
 MRUDockID=59421
