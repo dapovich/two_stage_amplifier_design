@@ -3,11 +3,11 @@
 ***                                                                          ***
 ***                                                                          ***
 ***  Harmonic Distortion Analysis of two_stage_amplifier_after_optimization  ***
-***                            29.12.2021 1:27:43                            ***
+***                            30.12.2021 1:57:04                            ***
 ********************************************************************************
 Limits
 ======
-Fundamental Frequency      List 8K
+Fundamental Frequency      List 2K
 Name of Input Source       UIN
 Input Source Amplitude     List 380m
 Name of Source Resistor    None
@@ -31,7 +31,7 @@ Ignore Expression Errors   Off
 
 *****************************************************
 ***                Temperature=27                 ***
-***                     F=8K                      ***
+***                     F=2K                      ***
 ***                   VIN=380M                    ***
 ***                   RLoad=300                   ***
 ***            Vnoise(RMS)=0.000220916            ***
@@ -39,7 +39,7 @@ Ignore Expression Errors   Off
 ***        Noise Frequency Range=1 to 100K        ***
 *****************************************************
 
-Temperature=27 F=8K VIN=380M
+Temperature=27 F=2K VIN=380M
 
 DC Operating Point Voltages
 ===========================
