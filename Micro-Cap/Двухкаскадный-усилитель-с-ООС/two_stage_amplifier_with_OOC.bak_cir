@@ -1341,9 +1341,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=180,87
+SB 3=57,21
 Scale 3=0.66666666666666663
-Px=213,41
+Px=786,192
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1999,11 +1999,41 @@ Analysis=AC
 Object=Tag
 Locked=True
 Weight=2
-EndPoint=ArrowF
+EndPoint=Dot
 CBorder=#000080
 w=0
 AliasID1=1
-Pos=1614.3585568264486,30.687875579541704,343.37160294726164,66.428571428571431
+Pos=31.082869039127836,28.968000000000004,1.137891836664833,70.617283950617292
+Font=Height=-37,FStyle=4,Color=#000000,Name=Arial
+Format=3
+FormatY=3
+Branch=0
+
+[AObject]
+Analysis=AC
+Object=Tag
+Locked=True
+Weight=2
+EndPoint=Dot
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=103988.04492460593,28.967999999999996,236850.36225065237,66.502057613168731
+Font=Height=-37,FStyle=4,Color=#000000,Name=Arial
+Format=3
+FormatY=3
+Branch=0
+
+[AObject]
+Analysis=AC
+Object=Tag
+Locked=True
+Weight=2
+EndPoint=Dot
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=1614.3585568264486,30.687875579541704,380.75460212223749,69.794238683127574
 Font=Height=-37,FStyle=4,Color=#000000,Name=Arial
 Format=3
 FormatY=3

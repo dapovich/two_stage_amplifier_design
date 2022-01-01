@@ -19,6 +19,16 @@ Line=26,0,48,0
 Current=32,8,16,8
 
 [shapedef]
+Name=Battery_Euro
+Line=26,-7,26,7
+Line=26,0,48,0
+Line=0,0,22,0
+Root="Minus.root",17,4,0
+Root="Plus.root",31,4,0
+Rectangle=22,-3,23,3
+Current=32,-8,16,-8
+
+[shapedef]
 Name=Bjt.root
 Line=0,0,13,0
 Rectangle=13,-12,15,12
@@ -35,11 +45,34 @@ PolyLine=24,12
 PolyLine=14,2
 
 [shapedef]
+Name=Bjt_Euro.root
+Ellipse=4,-16,36,16
+FColor=None
+Line=0,0,13,0
+Rectangle=13,-12,15,12
+Current=32,-24,32,-16
+Current=32,24,32,16
+Current=0,-12,8,-12
+PolyOpen=3
+PolyLine=24,24
+PolyLine=24,12
+PolyLine=14,2
+PolyOpen=3
+PolyLine=24,-24
+PolyLine=24,-12
+PolyLine=14,-2
+
+[shapedef]
 Name=Ground
 Line=0,0,12,0
 Line=12,-8,12,8
 Line=18,-4,18,4
 Line=24,0,24,0
+
+[shapedef]
+Name=Ground_Euro
+Line=0,0,12,0
+Line=12,-8,12,8
 
 [shapedef]
 Name=Isource.Root
@@ -54,6 +87,15 @@ Line=0,32,0,48
 Current=16,16,16,32
 
 [shapedef]
+Name=Minus.root
+Line=-2,0,2,0
+
+[shapedef]
+Name=Plus.root
+Line=-2,0,2,0
+Line=0,-2,0,2
+
+[shapedef]
 Name=PNP
 Root="Bjt.root",0,0,0
 PolyClosed=3
@@ -64,6 +106,15 @@ Line=16,-4,14,-2
 Line=16,4,14,2
 
 [shapedef]
+Name=PNP_Euro
+Root="Bjt_Euro.root",0,0,0
+PolyClosed=4
+PolyLine=17,-5
+PolyLine=17,-5
+PolyLine=21,-5
+PolyLine=17,-9
+
+[shapedef]
 Name=SPICE_I
 Root="Isource.Root",0,0,0
 
@@ -72,7 +123,7 @@ Name=PNP
 Definition=PNP
 Shape=PNP
 Mask=4609
-Used=2
+Used=5
 memo=PNP Transistor
 Label Offset=37,-13,-8,35
 PinCnt=3
@@ -84,8 +135,8 @@ Pin="Emitter",3,-3,6,15
 Name=Current Source
 Definition=ISpice
 Shape=SPICE_I
-Mask=7681
-Used=1
+Mask=7169
+Used=7
 memo=Current Source
 Label Offset=15,12,-29,12
 PinCnt=2
@@ -96,8 +147,8 @@ Pin="Minus",0,6,8,3
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=6145
-Used=54
+Mask=6913
+Used=69
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -109,7 +160,7 @@ Name=Ground
 Definition=Ground
 Shape=Ground
 Mask=257
-Used=287
+Used=327
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -134,8 +185,8 @@ Line=-24,56,232,56
 Line=-24,36,232,36
 
 [Circuit]
-Window Placement=2,3, -1,-1, -8,-31, 0,0,787,491
-Default Object=FT=SLD,Color=#000080,Fill=#FFFFFF,Width=3
+Window Placement=2,3, -1,-1, -8,-31, 0,0,561,491
+Default Object=Color=#000000,Width=2,Pattern=Dash
 Default Object Font=Height=-48,FStyle=6,Color=#000000,Name=Arial Narrow
 Default Object Apply Border To Text=No
 Default Object Apply Fill To Text=No
@@ -148,7 +199,7 @@ WarningFormat=3
 GridTextFormulaFormat=3
 Window Placement in Transient Analysis=2,3, -1,-1, -8,-31, 0,52,791,531
 Window Placement in AC Analysis=2,3, -1,-1, -8,-31, 0,52,791,531
-Window Placement in DC Analysis=2,3, -1,-1, -8,-31, 0,52,791,531
+Window Placement in DC Analysis=2,3, -1,-1, -8,-31, 0,52,757,531
 Window Placement in HmDistortion Analysis=2,3, -1,-1, -8,-31, 0,52,791,531
 SpiceType=AMBIGUOUS
 Title_Block_Border=None
@@ -206,42 +257,21 @@ Font=Verdana
 
 [Comp]
 Name=PNP
-Color=#000000
-FColor=#000000
 Px=552,288
 Rot=4
 
 [Attr]
-ON=-12,-36,PART
+ON=-5,-38,PART
 V=VT1
 Style=8192
-Color=#000000
 
 [Attr]
-ON=0,11,VALUE
-V
-Color=#000000
-
-[Attr]
-ON=-26,-25,MODEL
+ON=-25,-26,MODEL
 V=NZT660
 Style=8192
-Color=#000000
-
-[Attr]
-ON=0,33,COST
-V
-Color=#000000
-
-[Attr]
-ON=0,44,POWER
-V
-Color=#000000
 
 [Comp]
 Name=Current Source
-Color=#000000
-FColor=#000000
 Px=504,304
 Rot=6
 
@@ -249,33 +279,27 @@ Rot=6
 ON=-25,12,PART
 V=I1
 Style=8192
-Color=#000000
 
 [Attr]
 ON=-264,42,VALUE
 V=DC 0 AC 1 0 Pulse 0 5 100n 10n 10n 400n 1u
-Color=#000000
 
 [Attr]
-ON=0,22,COST
-V
-Color=#000000
-
-[Attr]
-ON=0,33,POWER
-V
-Color=#000000
+ON=0,55,SHAPEGROUP
+V=Main
 
 [Attr]
 ON=0,0,Saved_Pulse
 V=DC 0 AC 1 0 Pulse 0 5 100n 10n 10n 400n 1u
 Style=256
-Color=#000000
+
+[Attr]
+ON=0,11,FRACTION
+V=.2
+Style=256
 
 [Comp]
 Name=Battery
-Color=#000000
-FColor=#000000
 Px=656,264
 Rot=1
 
@@ -283,69 +307,40 @@ Rot=1
 ON=10,13,PART
 V=V1
 Style=8192
-Color=#000000
-
-[Attr]
-ON=0,11,VALUE
-V
-Color=#000000
-
-[Attr]
-ON=0,22,COST
-V
-Color=#000000
-
-[Attr]
-ON=0,33,POWER
-V
-Color=#000000
 
 [Wire]
 Pxs=504,288,504,304
-Color=#000000
 
 [Wire]
 Pxs=504,288,552,288
-Color=#000000
 
 [Wire]
 Pxs=576,248,576,264
-Color=#000000
 
 [Wire]
 Pxs=576,248,656,248
-Color=#000000
 
 [Wire]
 Pxs=656,248,656,264
-Color=#000000
 
 [Wire]
 Pxs=576,312,576,352
-Color=#000000
 
 [Wire]
 Pxs=656,312,656,352
-Color=#000000
 
 [Comp]
 Name=Ground
-Color=#000000
-FColor=#000000
 Px=504,352
 Rot=1
 
 [Comp]
 Name=Ground
-Color=#000000
-FColor=#000000
 Px=576,352
 Rot=1
 
 [Comp]
 Name=Ground
-Color=#000000
-FColor=#000000
 Px=656,352
 Rot=1
 
@@ -359,7 +354,7 @@ Splitter.ys=0
 TextQuad=4099
 Scale=1
 GridUser=10
-ShapeGroups="Main","DeMorgan","Euro","Polarity","Electrolytic","Main1","Main11","GroundArrow"
+ShapeGroups="Euro","DeMorgan","Polarity","Electrolytic","Main11","Main1","Main","GroundArrow"
 CalcRMS=False
 CalcAVG=False
 CalcPeak=False
@@ -523,7 +518,7 @@ ALIGNBOTTOM=No
 
 [Section]
 Index=0
-Name="EXIT_BAX_1PT"
+Name="EXIT_BAX_NZT660"
 Type=Main
 Enable=True
 CurrentPage 0=0
@@ -545,9 +540,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=380,178
+SB 3=433,207
 Scale 3=0.5
-Px=447,223
+Px=611,354
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -931,7 +926,7 @@ Name="Main"
 
 [DC]
 WinID=3
-Window Placement=2,3, -1,-1, -8,-31, 0,52,791,531
+Window Placement=2,3, -1,-1, -8,-31, 0,52,757,531
 Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
@@ -1171,29 +1166,6 @@ JustifyV=Top
 [AObject]
 Analysis=DC
 Object=Text
-CBorder=None
-w=7
-AliasID1=8
-Pos=10.312075983717774,0.060255319148936164,0,0
-Font=Height=-48,FStyle=6,Color=#000000,Name=Arial Narrow
-Text="A' (9,612 B; 54 mA)"
-JustifyH=Left
-JustifyV=Top
-
-[AObject]
-Analysis=DC
-Object=Ellipse
-FT=SLD
-Weight=3
-CFill=#FFFFFF
-CBorder=#000080
-w=7
-AliasID1=8
-Pos=9.6933514246947077,0.054127659574468079,9.9511533242876524,0.05234042553191489
-
-[AObject]
-Analysis=DC
-Object=Text
 CFill=#FFFFFF
 CBorder=None
 w=0
@@ -1208,9 +1180,9 @@ JustifyV=Top
 Analysis=DC
 Object=Text
 CBorder=None
-w=7
-AliasID1=8
-Pos=20.727272727272727,0.010468085106382977,0,0
+w=0
+AliasID1=1
+Pos=19.71001494768311,0.0090205011389521642,0,0
 Font=Height=-48,FStyle=6,Color=#000000,Name=Arial Narrow
 Text="Uêýmax = 23,844 Â ïðè Ib = -Iko"
 JustifyH=Left
@@ -1218,33 +1190,11 @@ JustifyV=Top
 
 [AObject]
 Analysis=DC
-Object=Ellipse
-FT=SLD
-Weight=3
-CFill=#FFFFFF
-CBorder=#000080
-w=0
-AliasID1=1
-Pos=23.614654002713703,0.0020425531914893616,23.82089552238806,0.0002553191489361702
-
-[AObject]
-Analysis=DC
-Object=Ellipse
-FT=SLD
-Weight=3
-CFill=#FFFFFF
-CBorder=#000080
-w=4
-AliasID1=3
-Pos=8.8141112618724549,0.045217391304347827,9.0420624151967424,0.04372670807453416
-
-[AObject]
-Analysis=DC
 Object=Text
 CBorder=None
 w=0
 AliasID1=1
-Pos=6.4586160108548167,0.040745341614906831,0,0
+Pos=8.2869955156950681,0.038230088495575215,0,0
 Font=Height=-48,FStyle=6,Color=#000000,Name=Arial Narrow
 Text="A (8,982 B; 44,3 mA)"
 JustifyH=Left
@@ -1257,21 +1207,97 @@ FT=SLD
 Weight=3
 CFill=#FFFFFF
 CBorder=#000080
-w=7
-AliasID1=8
-Pos=12.219810040705562,0.076085106382978718,12.477611940298507,0.074297872340425522
+w=0
+AliasID1=1
+Pos=12.11777777777778,0.076605922551252828,12.399259259259262,0.074965831435079705
 
 [AObject]
 Analysis=DC
 Object=Text
 CBorder=None
-w=7
-AliasID1=8
-Pos=12.786974219810041,0.08348936170212766,0,0
+w=0
+AliasID1=1
+Pos=10.565022421524665,0.057949886104783598,0,0
+Font=Height=-48,FStyle=6,Color=#000000,Name=Arial Narrow
+Text="A' (9,612 B; 54 mA)"
+JustifyH=Left
+JustifyV=Top
+
+[AObject]
+Analysis=DC
+Object=Ellipse
+FT=SLD
+Weight=3
+CFill=#FFFFFF
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=18.080717488789237,0.0013274336283185841,18.28998505231689,-0
+
+[AObject]
+Analysis=DC
+Object=Ellipse
+FT=SLD
+Weight=3
+CFill=#FFFFFF
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=9.5426008968609874,0.054669703872437359,9.7698056801195818,0.05330296127562642
+
+[AObject]
+Analysis=DC
+Object=Line
+Weight=2
+CBorder=#000000
+Pattern=Dash
+w=0
+AliasID1=1
+Pos=9.8096296296296313,0.054601366742596795,12.174074074074076,0.074555808656036435
+
+[AObject]
+Analysis=DC
+Object=Line
+Weight=2
+CBorder=#000000
+Pattern=Dash
+w=0
+AliasID1=1
+Pos=8.9088888888888889,0.045580865603644646,9.6407407407407408,0.052824601366742593
+
+[AObject]
+Analysis=DC
+Object=Text
+CBorder=None
+w=0
+AliasID1=1
+Pos=12.382660687593424,0.083644646924829147,0,0
 Font=Height=-48,FStyle=6,Color=#000000,Name=Arial Narrow
 Text="A'' (12,3 B; 75 mA)"
 JustifyH=Left
 JustifyV=Top
+
+[AObject]
+Analysis=DC
+Object=Ellipse
+FT=SLD
+Weight=3
+CFill=#FFFFFF
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=8.7400000000000002,0.045307517084282461,8.9651851851851845,0.043940774487471523
+
+[AObject]
+Analysis=DC
+Object=Ellipse
+FT=SLD
+Weight=3
+CFill=#FFFFFF
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=23.629297458893873,0.0016400911161731206,23.913303437967116,-0
 
 [Monte Carlo Options]
 Analysis=AC
@@ -1462,8 +1488,9 @@ Range Grid X=3
 Range Grid Y=10m
 Enable=Enable
 CS=Normal
-Line Color=#FF7D8D
-Text Color=#FF7D8D
+Line Color=#000000
+Text Color=#000000
+Pattern=DashDot6
 Rainbow=False
 LWdth=2
 VFmtX=3
@@ -1490,8 +1517,9 @@ Range Grid X=3
 Range Grid Y=10m
 Enable=Enable
 CS=Normal
-Line Color=#6363FF
-Text Color=#6363FF
+Line Color=#000000
+Text Color=#000000
+Pattern=DashDot6
 Rainbow=False
 LWdth=2
 VFmtX=3
@@ -1518,8 +1546,9 @@ Range Grid X=3
 Range Grid Y=10m
 Enable=Enable
 CS=Normal
-Line Color=#C40062
-Text Color=#C40062
+Line Color=#000000
+Text Color=#000000
+Pattern=Dash6
 Rainbow=False
 LWdth=2
 VFmtX=3
@@ -1546,8 +1575,9 @@ Range Grid X=3
 Range Grid Y=10m
 Enable=Enable
 CS=Normal
-Line Color=#000080
-Text Color=#000080
+Line Color=#000000
+Text Color=#000000
+Pattern=Dash6
 Rainbow=False
 LWdth=2
 VFmtX=3

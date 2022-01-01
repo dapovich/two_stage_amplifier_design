@@ -114,8 +114,8 @@ Pin="Source",3,3,6,3
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=6145
-Used=67
+Mask=7681
+Used=65
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -126,8 +126,8 @@ Pin="Minus",0,0,-10,-5
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=257
-Used=325
+Mask=1
+Used=318
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -787,7 +787,37 @@ EndPoint=Dot
 CBorder=#000080
 w=0
 AliasID1=1
-Pos=-2.7626043405169973,0.00069999999999999978,-1.2110625909752548,0.00098033472803347272
+Pos=-2.2530000000000001,0.0016373237529570023,-2.0625909752547309,0.0018262365591397848
+Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
+Format=3
+FormatY=3
+Branch=0
+
+[AObject]
+Analysis=DC
+Object=Tag
+Locked=True
+Weight=3
+EndPoint=Dot
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=-3.0129999999999999,0.00025706766765578671,-1.1164483260553129,0.00054309623430962343
+Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
+Format=3
+FormatY=3
+Branch=0
+
+[AObject]
+Analysis=DC
+Object=Tag
+Locked=True
+Weight=3
+EndPoint=Dot
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=-2.6331963490751789,0.00093500000000000007,-1.2678311499272197,0.0011506276150627613
 Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
 Format=3
 FormatY=3
@@ -809,9 +839,9 @@ Object=Text
 CBorder=None
 w=0
 AliasID1=1
-Pos=-3.9643377001455602,0.002135564853556485,0,0
+Pos=-4.1724890829694319,0.0021263598326359831,0,0
 Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
-Text="Uсир = 6,6 В"
+Text="Uсир = 7,346 В"
 JustifyH=Left
 JustifyV=Top
 
@@ -821,38 +851,11 @@ Object=Text
 CBorder=None
 w=0
 AliasID1=1
-Pos=-3.0181950509461428,0.00082384937238493721,0,0
+Pos=-2.8762736535662299,0.0010263598326359831,0,0
 Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
 Text="P"
 JustifyH=Left
 JustifyV=Top
-
-[AObject]
-Analysis=DC
-Object=Text
-CBorder=None
-w=0
-AliasID1=1
-Pos=-3.5105485232067508,0.00012759493670886076,0,0
-Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
-Text="Uo"
-JustifyH=Left
-JustifyV=Top
-
-[AObject]
-Analysis=DC
-Object=Tag
-Locked=True
-Weight=3
-EndPoint=Dot
-CBorder=#000080
-w=0
-AliasID1=1
-Pos=-3.1806990346455364,9.9999999998733448e-011,-1.6455696202531644,0.00028253164556962026
-Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
-Format=3
-FormatY=3
-Branch=0
 
 [AObject]
 Analysis=DC
@@ -919,7 +922,7 @@ Seed=0
 
 [Limits]
 Analysis=DC
-I2Range=6.6
+I2Range=7.346
 I2=V1
 I1Range=-7,-0.75,-0.001
 I1=V2
@@ -940,7 +943,7 @@ Plt=1
 AliasID=1
 XExp=-VGS(VT1)
 YExp=-ID(VT1)
-XRng=0,-6.5
+XRng=0,-6
 YRng=2200u, 0
 Options=LINEARX,LINEARY
 Range Grid X=-2

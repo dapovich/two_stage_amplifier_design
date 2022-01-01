@@ -114,8 +114,8 @@ Pin="Source",3,3,6,3
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=7681
-Used=65
+Mask=6913
+Used=69
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -126,8 +126,8 @@ Pin="Minus",0,0,-10,-5
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=1
-Used=318
+Mask=257
+Used=327
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -135,7 +135,7 @@ Pin="PinA",0,0,-3,-7
 
 [Circuit]
 Window Placement=2,3, -1,-1, -8,-31, 0,52,557,443
-Default Object=Color=#000080,Width=3
+Default Object=FT=SLD,Color=#000080,Fill=#FFFFFF,Width=3
 Default Object Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
 Default Object Apply Border To Text=No
 Default Object Apply Fill To Text=No
@@ -782,45 +782,14 @@ PrintPreview=Off,0,0,1,1
 
 [AObject]
 Analysis=DC
-Object=Tag
-Locked=True
+Object=Ellipse
+FT=SLD
 Weight=3
-EndPoint=Dot
+CFill=#FFFFFF
 CBorder=#000080
-w=2
-AliasID1=3
-Pos=7.3464171384210371,0.00093500000000000007,13.056768558951966,0.0012903225806451613
-Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
-Format=3
-FormatY=3
-Branch=0
-
-[AObject]
-Analysis=DC
-Object=Tag
-Locked=True
-Weight=3
-EndPoint=Dot
-CBorder=#000080
-w=1
-AliasID1=2
-Pos=6.5996500000000005,0.00093500000000000007,7.9819819819819822,0.0015240000000000002
-Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
-Format=3
-FormatY=3
-Branch=0
-
-[AObject]
-Analysis=DC
-Object=Text
-CBorder=None
-w=2
-AliasID1=3
-Pos=5.9039301310043664,0.00092258064516129027,0,0
-Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
-Text="A"
-JustifyH=Left
-JustifyV=Top
+w=0
+AliasID1=1
+Pos=6.4716157205240172,0.00097071129707112971,6.736535662299854,0.00091213389121338909
 
 [AObject]
 Analysis=DC
@@ -1108,9 +1077,9 @@ Object=Text
 CBorder=None
 w=0
 AliasID1=1
-Pos=7.3042212518195049,0.0012043010752688173,0,0
+Pos=6.736535662299854,0.0012133891213389121,0,0
 Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
-Text="A'"
+Text="P (6,6 Â; 935 uA)"
 JustifyH=Left
 JustifyV=Top
 
@@ -1198,7 +1167,6 @@ NOFmtY=3E
 
 [WaveForm]
 Analysis=DC
-Plt=1
 AliasID=3
 XExp=-VDS(VT1)
 YExp=(24)/(18610+170.96)+(VDS(VT1))/(18610+2815)

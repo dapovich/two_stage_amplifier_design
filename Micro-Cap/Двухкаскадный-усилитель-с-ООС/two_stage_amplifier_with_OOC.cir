@@ -4,7 +4,7 @@ Version=12.00
 Program=Micro-Cap
 Component Version=10.00
 Shape Version=11.00
-Screen=1600,900
+Screen=1536,864
 MCAPVersion=12.2.0.5
 Key ID=Demo
 NLCnt=87
@@ -289,7 +289,7 @@ PinCnt=1
 Pin="PinA",0,0,-3,-7
 
 [Circuit]
-Window Placement=2,3, -1,-1, -8,-31, 0,0,561,360
+Window Placement=2,3, -1,-1, -8,-31, 26,26,379,442
 Default Object=Color=#000080,Width=2
 Default Object Font=Height=-37,FStyle=4,Color=#000000,Name=Arial
 Default Object Apply Border To Text=No
@@ -301,8 +301,6 @@ PowerFormat=3
 PathDelayFormat=3
 WarningFormat=3
 GridTextFormulaFormat=3
-Window Placement in Transient Analysis=2,3, -1,-1, -8,-31, 0,104,757,480
-Window Placement in AC Analysis=2,3, -1,-1, -8,-31, 0,182,682,558
 SpiceType=AMBIGUOUS
 Title_Block_Border=None
 Title_Block=False
@@ -1474,7 +1472,6 @@ SimulationLog=True
 
 [Transient]
 WinID=1
-Window Placement=2,3, -1,-1, -8,-31, 0,104,757,480
 Font=Height=-19,FStyle=0,Color=#000000,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
@@ -1539,13 +1536,6 @@ FFT_IncludeDCHarmonic=False
 FFT_AutoScale_Harmonics="10"
 PrinterAutoTile=No
 PrinterBlackBorder=No
-MonMaxShow=3
-MonPageWidth=66
-MonPlotWidth=21
-MonExprXWidth=142
-MonExprYWidth=367
-MonRangeXWidth=90
-MonRangeYWidth=90
 AnimateWait=None
 AnimateWaitTime=500
 AnimatePressAfter=0
@@ -1776,7 +1766,6 @@ Branch=0
 
 [AC]
 WinID=2
-Window Placement=2,3, -1,-1, -8,-31, 0,182,682,558
 Font=Height=-19,FStyle=0,Color=#000000,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
@@ -1834,13 +1823,6 @@ FFT_IncludeDCHarmonic=False
 FFT_AutoScale_Harmonics="10"
 PrinterAutoTile=No
 PrinterBlackBorder=No
-MonMaxShow=3
-MonPageWidth=66
-MonPlotWidth=21
-MonExprXWidth=142
-MonExprYWidth=260
-MonRangeXWidth=90
-MonRangeYWidth=90
 AnimateWait=None
 AnimateWaitTime=500
 AnimatePressAfter=0
