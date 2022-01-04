@@ -1,0 +1,240 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***           Harmonic Distortion Analysis of two_stage_amplifier            ***
+***                            04.01.2022 2:45:36                            ***
+********************************************************************************
+Limits
+======
+Fundamental Frequency      List 2K
+Name of Input Source       UIN
+Input Source Amplitude     List 380m
+Name of Source Resistor    None
+Name of Load Resistor      R13
+Noise Frequency Range      100K,1
+Temperature                List 27
+Max Simulation Cycles      50
+Steady State Tolerance     1u
+Time Step Ratio            1m
+Highest Harmonic in THD    7
+Number of Time Points      51
+Number of Frequency Points 51
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Periodic Steady State      On
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     F=2K                      ***
+***                   VIN=380M                    ***
+***                   RLoad=300                   ***
+***            Vnoise(RMS)=0.000222362            ***
+***              Vnoise=0.000314468               ***
+***        Noise Frequency Range=1 to 100K        ***
+*****************************************************
+
+Temperature=27 F=2K VIN=380M
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1           -36.000   2           -23.809   3            -6.535  
+4          -965.985n  5            -2.617   6           -25.421m 
+7             0.000   8            -3.110   9           -13.451  
+10           -2.465   11           -5.447m  12            0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors PNP
+====================================================================
+Instance:              VT2
+Using model:        NZT660
+
+Beta Terms:
+BETADC            456.887 
+BETAAC            455.019 
+
+Capacitance Terms:
+CPI                 6.488n
+CMU                34.394p
+CBX                 0.000 
+CJS                 0.000 
+
+Conductance Terms:
+GM                  2.604 
+
+Current Terms:
+IB                149.556u
+IC                 68.330m
+
+Resistance Terms:
+RPI               174.712 
+RX                 10.223 
+RO                686.688 
+
+Voltage Terms:
+VBE              -644.299m
+VBC                10.341 
+VCE               -10.986 
+
+Frequency Terms:
+FT               63.551MEG
+
+Power DC Terms:
+PD                750.754m
+PS                  0.000 
+
+DC Pin Currents:
+Ib               -149.556u
+Ic                -68.330m
+Ie                 68.480m
+Is                  0.000 
+
+Condition:
+State                  HOT
+
+Device Variables:
+area                1.000 
+vbe                 0.000 
+vce                 0.000 
+
+
+
+Operating Point for Devices of Type Jfet PJF
+============================================
+Instance:              VT1
+Using model:        2N2608
+
+Capacitance Terms:
+CGS                 6.288p
+CGD                 2.313p
+
+Conductance Terms:
+GM                 25.442m
+GDS                31.887u
+
+Current Terms:
+ID               -959.671u
+
+Voltage Terms:
+VGS                 2.617 
+VDS                -3.918 
+VGD                 6.535 
+
+Power DC Terms:
+PD                  3.760m
+PS                  0.000 
+
+DC Pin Currents:
+Ig                  9.660p
+Id               -959.671u
+Is                959.671u
+
+Condition:
+State                  SAT
+
+Device Variables:
+area                1.000 
+vds                 0.000 
+vgs                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R3            R2            R4            R6            R5
+V                  -12.191       -23.809        17.274         2.591       965.985n
+Power DC Terms:
+PD                   2.914         5.669        16.577m        2.487m        0.009f
+
+DC Pin Currents:
+Ir                -239.046m     -238.086m      959.671u      959.671u        9.660p
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:            UIN.RS            R8            R9           R11           R12
+V                    0.000       -32.890        -3.110       -22.549        -2.465 
+Power DC Terms:
+PD                   0.000        90.148m        8.058m        1.541       168.822m
+
+DC Pin Currents:
+Ir                   0.000        -2.741m       -2.591m      -68.330m      -68.480m
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:               R13            R7            R1           R10
+V                   -5.447m       25.421m        0.000        19.974m
+Power DC Terms:
+PD                  98.911n       23.934u        0.000       362.674n
+
+DC Pin Currents:
+Ir                 -18.158u      941.513u        0.000        18.158u
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C4            C3            C7            C6            C1
+V                    2.591         3.425        -2.465        13.446      -965.985n
+Power DC Terms:
+PS                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:                C2            C5            C8
+V                   -6.535       -10.341        19.974m
+Power DC Terms:
+PS                   0.000         0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:               UIN
+Using model:        GENERAL
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                E
+V                  36.000 
+Power DC Terms:
+PG                 11.164 
+
+DC Pin Currents:
+ISource          -310.117m
+
+
