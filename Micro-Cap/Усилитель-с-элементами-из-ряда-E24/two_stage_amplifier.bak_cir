@@ -289,7 +289,7 @@ PinCnt=1
 Pin="PinA",0,0,-3,-7
 
 [Circuit]
-Window Placement=2,3, -1,-1, -8,-31, 130,100,483,516
+Window Placement=2,3, -1,-1, -8,-31, 26,26,375,457
 Default Object=Color=#000080,Width=2
 Default Object Font=Height=-37,FStyle=4,Color=#000000,Name=Arial
 Default Object Apply Border To Text=No
@@ -1453,7 +1453,7 @@ Scale 1=1
 Scale 2=1
 SB 3=293,47
 Scale 3=1
-Px=532,71
+Px=929,125
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000

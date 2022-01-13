@@ -257,7 +257,7 @@ PowerFormat=3
 PathDelayFormat=3
 WarningFormat=3
 GridTextFormulaFormat=3
-Window Placement in Transient Analysis=2,3, -1,-1, -8,-31, 0,26,781,524
+Window Placement in Transient Analysis=2,3, -1,-1, -8,-31, 0,26,757,524
 Window Placement in Transient Probe=0,2, 199,694, -8,-31, 0,0,1474,728
 Window Placement in AC Analysis=2,3, -1,-1, -8,-31, 0,126,757,624
 Window Placement in DC Analysis=2,3, -1,-1, -8,-31, 234,234,915,703
@@ -898,7 +898,7 @@ CurrentSection 3=0
 Splitter.xs=0
 Splitter.ys=0
 TextQuad=4099
-Scale=0.66666666666666663
+Scale=1
 GridUser=10
 ShapeGroups="Euro","Main","GroundArrow","Electrolytic","DeMorgan","Polarity","Main1","Main11"
 CalcRMS=False
@@ -1086,9 +1086,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=582,153
-Scale 3=0.66666666666666663
-Px=676,203
+SB 3=416,120
+Scale 3=1
+Px=695,535
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1215,7 +1215,7 @@ SimulationLog=True
 
 [Transient]
 WinID=1
-Window Placement=2,3, -1,-1, -8,-31, 0,26,781,524
+Window Placement=2,3, -1,-1, -8,-31, 0,26,757,524
 Font=Height=-15,FStyle=0,Color=#000000,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
@@ -1949,7 +1949,7 @@ Seed=0
 
 [Limits]
 Analysis=Transient
-TMax=220u
+TMax=285u
 TStart=0
 TStep=0.1u
 NPts=51

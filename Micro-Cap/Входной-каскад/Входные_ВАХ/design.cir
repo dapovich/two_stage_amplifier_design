@@ -839,9 +839,9 @@ Object=Text
 CBorder=None
 w=0
 AliasID1=1
-Pos=-4.1724890829694319,0.0021263598326359831,0,0
+Pos=-3.9039301310043668,0.002121757322175732,0,0
 Font=Height=-48,FStyle=6,Color=#000000,Name=Arial
-Text="Uсир = 7,346 В"
+Text="Uсир = 6,6 В"
 JustifyH=Left
 JustifyV=Top
 
@@ -922,7 +922,7 @@ Seed=0
 
 [Limits]
 Analysis=DC
-I2Range=7.346
+I2Range=6.6
 I2=V1
 I1Range=-7,-0.75,-0.001
 I1=V2
